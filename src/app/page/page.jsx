@@ -4,10 +4,6 @@ import LayOut from '../Layout/LayOut';
 import Link from 'next/link';
 import Image from 'next/image';
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 0a6e48b69bad55d41704e490f20b8602f02d759c
 const Page = () => {
 
     const [data, setData] = useState([])
