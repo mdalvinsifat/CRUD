@@ -28,7 +28,7 @@ const Page = () => {
           <div className="container m-5">
           {
             data.map((item) =>(
-                <div>
+                <div key={item.id}>
                    <div className="row m-5">
                     <div className="col-md-4">
                       <img src={item.img} alt="" srcset="" className='w-75' />
@@ -40,7 +40,7 @@ const Page = () => {
                      <p>{item.title}</p>
                      </small>
                     <div className="d-flex">
-                  <Link href={`/course/${item._id}`}>
+                  <Link href={`/course/${item._id}`} >
                   <button className='btn btn-dark mt-3'>Detelis </button>
                   </Link>
                   

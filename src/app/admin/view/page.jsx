@@ -58,11 +58,11 @@ return (
     {
         data.map(item =>{
             return (
-                <tr>
+                <tr key={item._id}>
       <td>{item.name}</td>
       <td>
 
-      <img src={item.img} alt="logo" width="64" height="64" />
+      <Image src={item.img} alt="logo" width="64" height="64" />
 
       </td>
       <td>

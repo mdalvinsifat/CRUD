@@ -43,7 +43,7 @@ const Page = () => {
     {
         data.map(item =>{
             return (
-                <tr>
+                <tr key={item._id}>
       <td>{item.name}</td>
       <td>{item.email}</td>
       <td>
