@@ -1,6 +1,13 @@
 
 {
+<<<<<<< HEAD
    "rewrites":  [
        {"source": "/(.*)", "destination": "/"}
     ]
 }
+=======
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
+     ]
+ }
+>>>>>>> 9781ddb (four)
