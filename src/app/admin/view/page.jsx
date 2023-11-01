@@ -58,7 +58,7 @@ return (
     {
         data.map(item =>{
             return (
-                <tr key={item._id}>
+                <tr key={item.id}>
       <td>{item.name}</td>
       <td>
 
